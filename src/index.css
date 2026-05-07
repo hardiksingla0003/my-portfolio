@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300;1,9..144,700&family=DM+Sans:wght@300;400;500&display=swap");
+
+@theme {
+  --color-bg: #0d0d0d;
+  --color-gold: #e8d5a3;
+  --color-paper: #f0ece4;
+  --color-muted: #888580;
+}
+
+* {
+  cursor: none !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #0d0d0d;
+  color: #f0ece4;
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}

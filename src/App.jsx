@@ -1,4 +1,4 @@
-import Cursor from "./components/cursor";
+import Cursor from "./components/Cursor";
 import ParticleCanvas from "./components/ParticleCanvas";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";

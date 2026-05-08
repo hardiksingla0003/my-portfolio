@@ -1,3 +1,4 @@
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { useState } from "react";
 
 const PROJECTS = [
@@ -104,17 +105,17 @@ const ProjectRow = ({ p }) => {
               href={p.live}
               rel="noopener noreferrer"
               target="_blank"
-              className="text-[11px] tracking-[0.08em] uppercase text-gold border-b border-[rgba(232,213,163,0.4)] pb-0.5 hover:border-gold transition-colors"
+              className="text-[11px] tracking-[0.08em] uppercase text-gold border-b border-[rgba(232,213,163,0.4)] pb-0.5 hover:border-gold transition-colors flex"
             >
-              Live demo ↗
+              Live demo <ArrowUpRight size={15} />
             </a>
             <a
               href={p.repo}
               rel="noopener noreferrer"
               target="_blank"
-              className="text-[11px] tracking-[0.08em] uppercase text-white/30 border-b border-white/10 pb-0.5 hover:text-white/60 transition-colors"
+              className="text-[11px] tracking-[0.08em] uppercase text-white/30 border-b border-white/10 pb-0.5 hover:text-white/60 transition-colors flex"
             >
-              GitHub →
+              GitHub <ArrowRight size={15} />
             </a>
           </div>
         ) : (

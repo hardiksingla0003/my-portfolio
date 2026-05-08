@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import { useRef, useState } from "react";
 const LINKS = [
   {
@@ -108,9 +109,9 @@ const Contact = () => {
 
         <a
           href="mailto:hardiksingla1999@gmail.com"
-          className="inline-flex items-center bg-transparent justify-center gap-3 text-gold text-[11px] border-[1.5px] border-gold/30 hover:border-gold/60 rounded-xs tracking-[0.12em] uppercase px-14 py-5 font-medium transition-all duration-300 hover:bg-gold/10 relative z-10 mb-12"
+          className="inline-flex items-center bg-transparent justify-center text-gold text-[11px] border-[1.5px] border-gold/30 hover:border-gold/60 rounded-xs tracking-[0.12em] uppercase px-14 py-5 font-medium transition-all duration-300 hover:bg-gold/10 relative z-10 mb-12"
         >
-          Send an email ↗
+          Send an email <ArrowUpRight size={15} />
         </a>
 
         <div className="flex w-full z-10 relative max-w-2xl mt-12 border border-[rgba(255,255,255,0.07)]">
